@@ -5,16 +5,13 @@
     <meta charset="utf-8" />
     <title>NuCamp: A Better Way To Camp</title>
     <head>
-        <!-- Required meta tags always come first -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
         <title>NuCamp: A Better Way To Camp</title>
@@ -26,7 +23,7 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="Container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 algn-self-center">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <img src="img/logo.png" class="img-fluid" />
                 </div>
                 <div class="col">
@@ -34,11 +31,9 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-3 my-auto">
-                    <!-- Button trigger modal -->
                     <button type="button" class="btn btn-info" id="reserveButton">
                         Reserve a Campsite
                     </button>
-                    <!-- Modal -->
                     <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog"
                         aria-labelledby="reserveFormTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
@@ -51,7 +46,6 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
-                                        <!-- remember form-group and form control add styling -->
                                         <form id="reserveForm" class="form-group text-dark">
                                             <div class="row">
                                                 <div class="col-sm-6">
@@ -59,6 +53,7 @@
                                                         Campers</label>
                                                 </div>
                                                 <select class="form-control col" name="numCampers" id="numCampers">
+                                                    <option>Select...</option>
                                                     <option>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
@@ -72,7 +67,7 @@
                                                     <label for="date" class="form-check-label">Date</label>
                                                 </div>
                                                 <input class="form-control col-sm-6" type="date" id="date" name="date"
-                                                    value="2019-11-11" />
+                                                    value="mm/dd/yyyy" />
                                             </div>
                                             <div class="row">
                                                 <div class="col-sm-6">
@@ -81,28 +76,28 @@
                                                 </div>
                                                 <div class="btn-group btn-group-toggle " data-toggle="buttons">
                                                     <label class="btn btn-secondary btn-success active">
-                                                        <input type="radio" name="options" id="option1"> RV
+                                                        <input type="radio" name="options" id="option1"> Tent
                                                     </label>
-                                                    <label class="btn btn-secondary btn-info">
-                                                        <input type="radio" name="options" id="option2"> Tent
+                                                    <label class="btn btn-primary">
+                                                        <input type="radio" name="options" id="option2"> Rv
                                                     </label>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col">
+                                                    <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">Cancel</button>
+                                                    <button type="button" class="btn btn-primary" value="Reserve">Search</button>
                                                 </div>
                                             </div>
                                         </form>
                                     </div>
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary" value="Reserve">Save changes</button>
-                                </div>
+                                <div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </header>
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
@@ -287,13 +282,10 @@
         </div>
     </footer>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- endbuild -->
         
 </body>
 

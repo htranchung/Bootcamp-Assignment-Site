@@ -1,4 +1,4 @@
-Bootcamp site we had to make during the course using Bootstrap (for some reason I lost the "Site.html")
+Bootcamp site we had to make during the course using Bootstrap (I lost the "Site.html")
 
 ![](images/home.png)
 

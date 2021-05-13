@@ -1,4 +1,4 @@
-Bootcamp site we had to make during the course using Bootstrap.
+A simple campgrounds website made using Bootstrap.
 
 <h1 align="center"> Home Page </h1>
 

@@ -1,4 +1,4 @@
-Bootcamp site we had to make during the course using Bootstrap (I lost the "Sites.html")
+Bootcamp site we had to make during the course using Bootstrap. (Sites Tab is unavailabe)  
 
 <h1 align="center"> Home Page </h1>
 

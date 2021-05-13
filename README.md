@@ -1,4 +1,4 @@
-Bootcamp site we had to make during the course using Bootstrap. ("Sites" tab is unavailabe for imaging)  
+Bootcamp site we had to make during the course using Bootstrap.
 
 <h1 align="center"> Home Page </h1>
 
